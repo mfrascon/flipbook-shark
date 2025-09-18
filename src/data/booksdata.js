@@ -24,21 +24,21 @@ import page4_3 from "../assets/book3/page-4.png";
 
 export const books = [
   {
-    id: "book1",
+    id: "Your-Go-To-Guide",
     title: "Your Go-To Guide",
     width: 550,   // width in px
     height: 700,  // height in px
     pages: [cover1, page1, page2, page3, page4, page5, page6, page7, page8, page9, page10],
   },
   {
-    id: "book2",
+    id: "Sorsogon-Map",
     title: "Sorsogon Map",
     width: 700,   // custom size for book2
     height: 550,
     pages: [cover2, page1_2, page2_2],
   },
   {
-    id: "book3",
+    id: "Recipes",
     title: "Recipes",
     width: 650,   // custom size for book3
     height: 800,

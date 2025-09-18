@@ -3,14 +3,17 @@ import HTMLFlipBook from "react-pageflip";
 
 function Book({ pages, width, height }) {
   return (
-    <HTMLFlipBook
-      width={width} 
-      height={height}
-      maxShadowOpacity={0.5}
-      drawShadow={true}
-      showCover={true}
-      size="fixed"
-    >
+      <HTMLFlipBook
+        width={width}
+        height={height}
+        minWidth={300}
+        maxWidth={1000}
+        minHeight={400}
+        maxHeight={1200}
+        drawShadow={true}
+        showCover={true}
+        size="fixed"
+      >
       {pages.map((img, i) => (
         <div key={i} className="page" style={{ background: "transparent" }}>
           <div className="page-content">
